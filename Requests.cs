@@ -33,13 +33,5 @@ namespace FanQieNovelsDownload
 
 
     }
-    public static class RequestsExtension
-    {
-        //静态方法
-        public static string Text(this HttpResponseMessage r)  //this关键字
-        {
 
-            return r.Content.ReadAsStringAsync().Result;
-        }
-    }
 }
